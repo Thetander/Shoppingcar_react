@@ -33,7 +33,7 @@ function Header({ cart, removeElementFromCart, increaseQuantity, decreaseQuantit
 
                             <div id="carrito" className="bg-white p-3">
                                 {isEmpty ? (
-                                    <p className="text-center">El carrito esta vacio</p>)
+                                    <p className="text-center">El carrito sin llenar</p>)
                                     : (
                                         //Fragment, para devolver mas de un elemento
                                         <>
